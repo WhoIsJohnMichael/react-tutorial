@@ -1,0 +1,93 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#inputHeader {
+  padding: 100px;
+  background-color: #628ee6;
+}
+
+#inputHeader > h2 {
+  color: aliceblue;
+}
+
+.search-btn {
+  background-color: aliceblue;
+  border-radius: 5px 10px 10px 5px;
+}
+
+.delete-btn{
+  background-color: rgb(226, 166, 186);
+}
+
+.update-btn{
+  background-color: rgb(238, 223, 154);
+}
+
+.complete-btn{
+  background-color: rgb(202, 240, 229)
+}
+
+button {
+  margin: 5px;
+  border: none;
+  padding: 0.6rem;
+  border-radius: 5px;
+}
+
+input {
+  border: none;
+  padding: 10px;
+  outline: none;
+  font-size: 1.2rem;
+}
+
+.task {
+  padding: 1.5rem;
+}
+
+.input-task:focus {
+  border-bottom: solid 2px #628ee6
+}
